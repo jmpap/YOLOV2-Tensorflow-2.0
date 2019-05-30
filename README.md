@@ -1,18 +1,26 @@
-# YOLO V2 with TensorFlow - Eager execution
+![](crop_detection.png)
+# YOLO V2 with TensorFlow 2.0
 
 
-Here is a jupyter notebook featuring a complete implementation from scratch of YOLOV2 in TensorFlow with eager execution :
+Here is a jupyter notebook featuring a complete implementation from scratch of YOLOV2 with TensorFlow 2.0 :
 
 - Dataset pipeline with data augmentation
 - Training from YOLO pretrained weights
 - Visualization of object detection
 
+I use this notebook to train a model to detect crop and weeds in a field. The goal is to detect crop in real time for tractor guidance and to detect weeds to remove them.
+
 Original paper : [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242) by Joseph Redmond and Ali Farhadi.
+
+#### Files
+
+- Yolo_V2_tf_2.ipynb : Yolo V2 implementation with Tensorflow 2.0
+- Yolo_V2_tf_eager.ipynb : old notebook, Yolo V2 implementation with Tensorflow 1.x with eager execution
 
 
 #### Requirements
 
-- tensorflow 1.11
+- tensorflow 2.0
 - imgaug
 - cv2
 
@@ -60,7 +68,7 @@ Original paper : [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612
 	val_annot_folder = 'data/val/annotation/'
 ~~~
 
-That's it, just run notebook cells to train YOLO on your own data.
+That's it, just run notebook cells to train YOLO on your own data!
 
 
 
