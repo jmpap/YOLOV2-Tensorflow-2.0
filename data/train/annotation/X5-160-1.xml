@@ -1,0 +1,37 @@
+<annotation>
+	<folder>train</folder>
+	<filename>X5-160-1.png</filename>
+	<path /><source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sugarbeet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>59</ymin>
+			<xmax>402</xmax>
+			<ymax>322</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sugarbeet</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>48</ymin>
+			<xmax>512</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
+</annotation>
